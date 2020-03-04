@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container{
+    background-color: #E5E5E5;
+    width: 50%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .onibus{
+    background-color: #F1f1f1;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 227px;
+    height: 580px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.direita{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 100%;
+    padding-top: 62px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.poltrona{
+    width: 38px;
+    height: 38px;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+}
+
+.esquerda{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    width: 100px;
+    height: 100%;
+    padding-top: 62px;
+    padding-bottom: 55px;
+    padding-left: 10px;
+}
