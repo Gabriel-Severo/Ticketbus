@@ -9,11 +9,8 @@
 
 header{
     width: 100%;
-    height: 60px;
+    height: 9vh;
     background-color: #EBEBEB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 header h2{
@@ -22,53 +19,55 @@ header h2{
 }
 
 .container{
-    background-color: #E5E5E5;
-    width: 50%;
-    height: 650px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 91vh;
+    width: 100%;
 }
 
-.container .onibus{
+.bus-select{
+    background-color: #E5E5E5;
+    width: 50%;
+    height: 91vh;
+}
+
+.container .bus{
     background-color: #F1f1f1;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     width: 227px;
-    height: 580px;
-    display: flex;
-    justify-content: space-between;
+    height: 97%;
+    justify-content: space-around;
 }
 
-.direita{
-    display: flex;
+.seat{
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100px;
+    width: 36%;
     height: 100%;
     padding-top: 62px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    padding-bottom: 7%;
+    justify-content: space-around;
+    align-content: flex-start;
 }
 
 .poltrona{
     width: 38px;
-    height: 38px;
+    height: 8%;
     background-color: #C4C4C4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 4px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 3%;
 }
 
-.esquerda{
+.flex{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: stretch;
-    width: 100px;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.bus-info{
+    width: 50%;
     height: 100%;
-    padding-top: 62px;
-    padding-bottom: 55px;
-    padding-left: 10px;
 }
