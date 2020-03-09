@@ -71,3 +71,11 @@ header h2{
     width: 50%;
     height: 100%;
 }
+
+
+@media (max-width: 500px){
+    .poltrona{
+        width: 28px;
+        height: 8%;
+    }
+}
