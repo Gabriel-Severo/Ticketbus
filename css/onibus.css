@@ -33,7 +33,7 @@ header h2{
     background-color: #F1f1f1;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    width: 227px;
+    width: 40%;
     height: 97%;
     justify-content: space-around;
 }
@@ -50,7 +50,7 @@ header h2{
 }
 
 .poltrona{
-    width: 38px;
+    width: 45%;
     height: 8%;
     background-color: #C4C4C4;
     text-decoration: none;
@@ -70,4 +70,10 @@ header h2{
 .bus-info{
     width: 50%;
     height: 100%;
+}
+
+@media (max-width: 950px){
+    .container .bus{
+        width: 227px;
+    }
 }
