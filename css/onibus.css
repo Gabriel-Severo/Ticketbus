@@ -77,3 +77,8 @@ header h2{
         width: 227px;
     }
 }
+
+.recibo {
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+}
