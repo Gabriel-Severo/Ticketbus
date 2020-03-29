@@ -94,4 +94,18 @@ header h2{
 .recibo {
     display: grid;
     grid-template-columns: 0.6fr 1fr;
+    background-color:#D3D1BC;
+    padding: 60px 40px;
+    grid-template-areas: 
+    "recibo recibo"
+}
+
+.recibo span, .recibo strong {
+    font-size: 15px;
+}
+
+.recibo h2 {
+    font-size: 20px;
+    grid-area: recibo;
+    text-align: center;
 }
