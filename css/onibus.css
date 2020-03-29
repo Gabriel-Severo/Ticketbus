@@ -58,6 +58,19 @@ header h2{
     margin-bottom: 3%;
 }
 
+.poltrona:hover{
+    background-color: #6C786F;
+}
+
+.selecionado{
+    width: 45%;
+    height: 8%;
+    background-color: #395E59;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 3%;
+}
+
 .flex{
     display: flex;
 }
