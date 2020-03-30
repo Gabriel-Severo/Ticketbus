@@ -3,7 +3,7 @@ O projeto se trata de um site venda de passagens de onibus selecionando o [desti
 
 ## Screenshots
 ![imagem1](https://i.imgur.com/wzqNhjf.png)
-![imagem2](https://i.imgur.com/BaoEycZ.png)
+![imagem2](https://i.imgur.com/BzQJ2T0.png)
 
 ## Tecnologia/Framework utilizados
 **Construido com**
@@ -14,9 +14,9 @@ O projeto se trata de um site venda de passagens de onibus selecionando o [desti
 ## Lista de tarefas
 **O que falta para a finalização do projeto**
 
-- [ ] Desenvolver o script para exibir nome, origem e destino e o assento selecionado na área do recibo.
-- [ ] Desenvolver o script para a seleção dos assentos.
-- [ ] Realizar o envio dos dados da página inicial para a página de seleção do assento.
-- [ ] Desenvolver o design da área do recibo.
+- [x] Desenvolver o script para exibir nome, origem e destino e o assento selecionado na área do recibo.
+- [x] Desenvolver o script para a seleção dos assentos.
+- [x] Realizar o envio dos dados da página inicial para a página de seleção do assento.
+- [x] Desenvolver o design da área do recibo.
 - [x] Desenvolver o design da seleção dos assentos do onibus.
 - [x] Desenvolver o design da página inicial.
