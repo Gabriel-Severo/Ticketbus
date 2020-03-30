@@ -17,7 +17,7 @@
                 <form class="form-container">
                     <div class="input-container">
                         <label for="nome">Nome</label>
-                        <input id="nome" type="text">
+                        <input id="nome" type="text" required>
                     </div>
                     <div class="input-container">
                         <label for="origem">Origem</label>
@@ -34,6 +34,9 @@
                             <option value="2">Ivinhema</option>
                             <option value="3">Batayporã</option>
                         </select>
+                    </div>
+                    <div class="erro">
+                        <p>Origem deve ser diferente de destino</p>
                     </div>
                     <button class="btn">Reservar</button>
                 </form>

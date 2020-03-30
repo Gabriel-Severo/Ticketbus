@@ -83,3 +83,13 @@ label{
     font-size: 1.1em;
 }
 
+.erro {
+    display: none;
+    background-color: rgba(255, 0, 0, 0.4);
+    padding: 15px 10px;
+}
+
+.erro p {
+    font-weight: bold;
+}
+
