@@ -23,3 +23,22 @@ document.querySelectorAll('.poltrona').forEach((e) => {
         e.classList.toggle('poltrona')
     })
 })
+
+document.getElementsByClassName('imprimir')[0].addEventListener('click', () => {
+    if(document.getElementsByClassName('poltrona-texto')[0].textContent === ''){
+        document.getElementsByClassName('erro')[0].style.display = 'block'
+        setTimeout(() => {
+            document.getElementsByClassName('erro')[0].style.display = 'none'
+        }, 3000)
+    }else{
+        document.querySelector('header').style.display = 'none'
+        document.querySelector('.bus-select').style.display = 'none'
+        document.querySelector('.imprimir').style.display = 'none'
+        document.querySelector('.bus-info').style.width= '100%'
+        window.print()
+        document.querySelector('header').style.display = 'flex'
+        document.querySelector('.bus-select').style.display = 'flex'
+        document.querySelector('.imprimir').style.display = 'flex'
+        document.querySelector('.bus-info').style.width= '50%'
+    }
+})

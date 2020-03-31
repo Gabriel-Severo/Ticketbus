@@ -98,6 +98,13 @@ header h2{
     padding: 60px 40px;
     grid-template-areas: 
     "recibo recibo"
+    "span strong"
+    "span strong"
+    "span strong"
+    "span strong"
+    "span strong"
+    "span strong"
+    "erro erro";
 }
 
 .recibo span, .recibo strong {
@@ -108,4 +115,23 @@ header h2{
     font-size: 20px;
     grid-area: recibo;
     text-align: center;
+}
+
+.imprimir{
+    right: 0;
+    position: absolute;
+    padding: 10px 40px;
+    border: 0;
+    background-color: #C4C4C4;
+    border-bottom-left-radius: 5px;
+}
+
+.imprimir:hover{
+    background-color: #6C786F;
+}
+
+.erro {
+    grid-area: erro;
+    background-color: rgba(200, 0, 0, 0.4);
+    display: none;
 }
