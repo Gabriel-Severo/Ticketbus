@@ -63,6 +63,11 @@ html, body{
     font-size: 1.3em;
     padding: 0 10px;
     outline: none;
+    color: #fff;
+}
+
+.input-container select option {
+    background-color: #00000088;
 }
 
 .input-container input:focus, .input-container select:focus{
